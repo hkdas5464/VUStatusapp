@@ -125,10 +125,19 @@ body {
   background-position: center;
   transition: all 0.2s ease-in-out !important;
 }
-.card-block:hover {
+.card:hover {
   -webkit-transform: translateY(-15px);
   transform: translateY(-15px);
   box-shadow: none;
+  
+  transition: .5s;
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+@media only screen and (min-width: 1280px) {
+  .horizontalrow{
+    background-color: red;
+  }
 }
 .muu {
   color: #fff;
