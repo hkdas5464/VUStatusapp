@@ -58,6 +58,9 @@
 .facebook span {
   background-color: #3b5998;
 }
+.linkedin span {
+  background-color: #3b5998;
+}
 .google-plus span {
   background-color: #db5a3c;
 }
@@ -85,11 +88,15 @@
 .icon-button .icon-facebook {
   color: #3b5998;
 }
+.icon-button .icon-linkedin {
+  color: #3b5998;
+}
 .icon-button .icon-google-plus {
   color: #db5a3c;
 }
 .icon-button:hover .icon-github,
 .icon-button:hover .icon-facebook,
+.icon-button:hover .icon-linkedin,
 .icon-button:hover .icon-google-plus {
   color: white;
 }
@@ -99,12 +106,6 @@
   background-color: #047bd5;
   position: -webkit-sticky;
   top: 0;
-  text-align: center;
-  color: white;
-}
-footer {
-  background-color: #777;
-  padding: 10px;
   text-align: center;
   color: white;
 }
@@ -129,14 +130,14 @@ body {
   -webkit-transform: translateY(-15px);
   transform: translateY(-15px);
   box-shadow: none;
-  
-  transition: .5s;
+
+  transition: 0.5s;
   animation: shake 0.5s;
   animation-iteration-count: infinite;
 }
 @media only screen and (min-width: 570px) {
-  .horizontalrow{
-    background-color:#047bd5;
+  .horizontalrow {
+    background-color: #047bd5;
   }
 }
 .muu {
@@ -158,7 +159,6 @@ body {
   font-size: 30px;
 }
 footer {
-  position: fixed;
   bottom: 0;
   width: 100%;
   height: 80px;
